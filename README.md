@@ -35,4 +35,4 @@ Este proyecto implementa un sistema para la gestión de un parqueadero utilizand
     ```
 
 ## Autor
-[Tu Nombre]
+Juan Sebastian Novoa
