@@ -36,3 +36,41 @@ Este proyecto implementa un sistema para la gestión de un parqueadero utilizand
 
 ## Autor
 Juan Sebastian Novoa
+
+## Pruebas de Ejecución
+A continuación se presenta un ejemplo de interacción con el sistema mediante la consola:
+
+```text
+--- GESTIÓN DE PARQUEADERO ---
+1. Registrar Entrada Automóvil
+2. Registrar Entrada Motocicleta
+3. Registrar Entrada Camión
+4. Registrar Salida (Calcular Costo)
+5. Listar Vehículos
+6. Salir
+Seleccione una opción: 1
+Placa: ABC-123
+Marca: Toyota
+Modelo: Corolla
+Tipo Combustible (Gasolina/Diesel/Etc): Gasolina
+Entrada registrada: Vehículo [ABC-123] Toyota Corolla | Tipo: Automóvil | Combustible: Gasolina
+
+--- GESTIÓN DE PARQUEADERO ---
+...
+Seleccione una opción: 2
+Placa: XYZ-987
+Marca: Yamaha
+Modelo: MT-09
+Cilindraje: 890
+Entrada registrada: Vehículo [XYZ-987] Yamaha MT-09 | Tipo: Moto | Cilindraje: 890cc
+
+--- GESTIÓN DE PARQUEADERO ---
+...
+Seleccione una opción: 4
+Ingrese Placa para salida: ABC-123
+--- Salida ---
+Vehículo: ABC-123
+Tiempo total: 2 horas
+Total a pagar: $100.0
+```
+
